@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Muhammad Rifqi Hakim</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+      <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+      <div id="img_here"></div>
+    </div>
+    <header
+      id="header"
+      class="animated slideInDown"
+      style="animation-delay: 1.8s"
+    >
+      <table>
+        <tr>
+          <td id="logo">Muhammad Rifqi Hakim</td>
+          <td id="navigation">
+            <a href="#experience">Experience</a>
+            <a href="#bio">About Me</a>
+            <a href="#contact">My contact</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <table id="top_part">
+      <tr>
+        <td id="about" class="animated slideInLeft" style="animation-delay: 2s">
+          <h1>Transforming Music, One Tune at a Time.</h1>
+          <a href="https://www.instagram.com/rifqihakiimm" target="_blank">
+            <button class="btn_one">Book with me</button> </a
+          ><br />
+          <table>
+            <tr>
+              <td class="animated zoomIn" style="animation-delay: 2.2s">
+                <a class="social" href="https://wa.me/6285811409443"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </td>
+              <td class="animated zoomIn" style="animation-delay: 2.6s">
+                <a class="social" href="https://www.instagram.com/rifqihakiimm"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+        <td
+          id="rightImage"
+          class="animated jackInTheBox"
+          style="animation-delay: 2.2s"
+        ></td>
+      </tr>
+    </table>
+    <div id="experience">
+      <h1>Experience</h1>
+      <div id="photos">
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://media.discordapp.net/attachments/907961822152364074/1188327370109763647/rifqi1.jpg?ex=659a1f1b&is=6587aa1b&hm=e194c823c93780c6ad6b4f85d2385c3eb108770fe16110b298e7eb09ab536c72&=&format=webp&width=350&height=622"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188327373364547624/rifqi4.jpg?ex=659a1f1b&is=6587aa1b&hm=af53009432170ceb3c22ac81e626116dac8fce4040da33574e6577cca1e7a8fd&"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188327372798312538/rifqi3.JPG?ex=659a1f1b&is=6587aa1b&hm=41cc8f0eed66570a011b9f909b204e637dc1ffa674379324bee13419493265c7&"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188327371422576730/rifqi2.jpg?ex=659a1f1b&is=6587aa1b&hm=8768f5f82384ffd8f213be9e0b0637d1b2ed8cfaa4f994da630ee94542b20538&"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188327374404726804/rifqi5.jpg?ex=659a1f1c&is=6587aa1c&hm=13ec38af81c491683e633a03be67a099d69811edc3bb45f2ab5893a7e368a914&"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188331695317975161/rifqi6.jpg?ex=659a2322&is=6587ae22&hm=335a4c447e7f701a3a332540ea58b6fe9f74b99103c92609ef9a8e7d4d1fde35&"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188331695598997544/rifqi7.jpg?ex=659a2322&is=6587ae22&hm=14a6947b88e19595e2a03b91369a7b29044f171a2394edcae296c94cd50ebb40&"
+        />
+        <img
+          onclick="magnify($(this).attr('src'))"
+          src="https://cdn.discordapp.com/attachments/907961822152364074/1188332561844416582/Snapinsta.app_367969457_326311476398375_2434552554603419558_n_1080.jpg?ex=659a23f0&is=6587aef0&hm=0219dfe4325456113b4c7a7448fba0bce1b65fea3a75df725893905ca78b4141&"
+        />
+      </div>
+    </div>
+    <div id="bio">
+      <h1>About</h1>
+      <p>
+        I am a percussionist, arranger, and composer based in Bandung,
+        Indonesia, with a background in music education from the Indonesian
+        University of Education. I have been involved in the field of music for
+        6 years.
+      </p>
+      <p>
+        Currently, I do not have any original composition works as they
+        are still in the process of creation. My musical abilities include
+        composing in various genres such as orchestral, big band, popular music,
+        contemporary music, percussion ensemble compositions, and more.
+      </p>
+      <p>
+        With my
+        passion and talent in the field of music, I am committed to engaging in
+        any musical endeavors that contribute to the advancement of music
+        worldwide.
+      </p>
+    </div>
+    <div id="contact">
+      <h1>Contact</h1>
+      <table>
+        <tr>
+          <td>
+            <div id="inner_div">
+              <table id="inner_table">
+                <tr>
+                  <td><i class="fas fa-phone"></i> &nbsp; +6285811409443</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-mail-bulk"></i> &nbsp; hakimrifqi303@gmail.com
+                  </td>
+                </tr>
+                <tr>
+                  <td><i class="fas fa-fax"></i> &nbsp; +6285811409443</td>
+                </tr>
+                <tr>
+                  <td>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div id="address">
+                      Jl. Dr. Setiabudi No.229, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154.<br />
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a class="social" href="https://wa.me/6285811409443"><i class="fab fa-whatsapp"></i></a>
+                    <a class="social" href="https://www.instagram.com/rifqihakiimm"><i class="fab fa-instagram"></i></a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+          <td>
+            <form
+              action="mailto:hakimrifqi303@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <input type="text" placeholder="Name" required />
+              <input type="email" placeholder="E-mail" required /><br />
+              <textarea placeholder="Your message" required rows="5"></textarea
+              ><br />
+              <button class="btn_one" type="submit">Send me E-mail</button>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="footer">
+      Made by <br />
+      <a href="https://www.instagram.com/rifqihakiimm">Rifqi Hakim</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
